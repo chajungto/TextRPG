@@ -1,4 +1,6 @@
-﻿namespace TextRPG
+﻿using System;
+
+namespace TextRPG
 {
     internal class Knight : ICharacter
     {
@@ -123,7 +125,9 @@
                 }
                 Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                 Console.WriteLine("원하는 번호를 누르면 그에 해당하는 번호의 장비를 착용 또는 해제 가능합니다.");
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("0. 나가기");
+                Console.ResetColor();
                 //원하는 번호를 누르면 그에 해당하는 번호의 장비를 착용 또는 해제 가능합니다.
                 int number = ChooseNumber();
                 if (number <= equipments.Count && number > 0)
@@ -203,7 +207,9 @@
                     index++;
                 }
                 Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("0. 나가기");
+                Console.ResetColor();
                 int number = ChooseNumber();
                 //0. 나가기
                 if (number == 0)
