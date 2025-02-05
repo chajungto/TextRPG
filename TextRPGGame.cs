@@ -15,64 +15,64 @@
         //장비 초기화
         public void InitialEquipment()
         {
-            equipmentList.Add(new Equipment(1,"나무 검","나무로 만든 검이다.","공격력 + 2", 2, 0,20, false,false));
-            
+            equipmentList.Add(new Equipment(1, "나무 검", "나무로 만든 검이다.", "공격력 + 2", 2, 0, 20, false, false));
+
             equipmentList.Add(new Equipment(2, "나무 방패", "나무로 만든 방패다.", "방어력 + 2", 0, 2, 20, false, false));
 
             equipmentList.Add(new Equipment(3, "돌 검", "돌로 만든 검이다.", "공격력 + 4", 4, 0, 40, false, false));
-            
+
             equipmentList.Add(new Equipment(4, "돌 방패", "돌로 만든 방패다.", "방어력 + 4", 0, 4, 40, false, false));
 
             equipmentList.Add(new Equipment(5, "팔 토시", "팔에 감싸는 느낌이 괜찮다.", "방어력 + 3", 0, 3, 30, false, false));
-            
+
             equipmentList.Add(new Equipment(6, "하이 힐", "신지 않고 흉기로 쓰인다.", "공격력 + 3", 3, 0, 30, false, false));
 
             equipmentList.Add(new Equipment(7, "금 검", "금으로 만든 검이다.", "공격력 + 6", 6, 0, 60, false, false));
-            
+
             equipmentList.Add(new Equipment(8, "은 방패", "은으로 만든 방패다.", "방어력 + 6", 0, 6, 60, false, false));
 
             equipmentList.Add(new Equipment(9, "총", "총 앞에서 만인이 평등해진다.", "공격력 + 12", 12, 0, 120, false, false));
-           
+
             equipmentList.Add(new Equipment(10, "머리 보호대", "일단 헤드샷은 막아주는 든든한 보호대", "방어력 + 12", 0, 12, 120, false, false));
 
             equipmentList.Add(new Equipment(11, "짱돌", "위급시에는 던져도 된다.", "공격력 + 3, 방어력 + 1", 3, 1, 40, false, false));
-          
+
             equipmentList.Add(new Equipment(12, "팬던트", "총알이 팬던트에 맞아서 내 목숨을 구할 수 있었어...", "공격력 + 1,방어력 + 3", 1, 3, 40, false, false));
 
             equipmentList.Add(new Equipment(13, "도끼", "제이슨이 보증하는 성능의 돌 도끼", "공격력 + 5, 방어력 + 3", 5, 3, 80, false, false));
-         
+
             equipmentList.Add(new Equipment(14, "안전제일", "술 먹은 다음날 내방에 있던 표지판", "공격력 + 3,방어력 + 5", 3, 5, 80, false, false));
 
             equipmentList.Add(new Equipment(15, "고양이 머리띠", "원래 고인물 륵이 가장 무서운 법", "공격력 + 6, 방어력 + 6", 6, 6, 120, false, false));
-           
+
             equipmentList.Add(new Equipment(16, "호루스의 방패", "누가 쓰던건지는 몰라도 매우 튼튼해 보이는 방패", "공격력 + 2,방어력 + 10", 2, 10, 120, false, false));
 
             equipmentList.Add(new Equipment(17, "키보드", "단단하지만 짧다. ", "공격력 + 2, 방어력 + 2", 2, 2, 40, false, false));
-          
+
             equipmentList.Add(new Equipment(18, "콜라 캔", "누가 다 마시고 버린듯 한 캔", "방어력 + 1", 0, 1, 10, false, false));
 
-            equipmentList.Add(new Equipment(19, "족집게", "정교한 공격을 원하는건가? ", "공격력 + 1,", 1, 0, 10, false, false));
-          
+            equipmentList.Add(new Equipment(19, "족집게", "정교한 공격을 원하는건가? ", "공격력 + 1", 1, 0, 10, false, false));
+
             equipmentList.Add(new Equipment(20, "자경단의 도전장", "도전장을 받으세요!", "공격력 + 7 방어력 + 2", 7, 2, 90, false, false));
 
-            equipmentList.Add(new Equipment(21, "마법서", "마법은 안적혀있고 단단하기만 하다. ", "방어력 + 10,", 0, 10, 100, false, false));
-           
+            equipmentList.Add(new Equipment(21, "마법서", "마법은 안적혀있고 단단하기만 하다. ", "방어력 + 10", 0, 10, 100, false, false));
+
             equipmentList.Add(new Equipment(22, "화합의 모자", "이 모자에는 꿈이 담겨져 있다.", "방어력 + 9", 0, 9, 90, false, false));
 
-            equipmentList.Add(new Equipment(23, "야구방망이", "규칙은 깨라고 있는거라 들었다.", "공격력 + 7,", 7, 0, 70, false, false));
-          
+            equipmentList.Add(new Equipment(23, "야구방망이", "규칙은 깨라고 있는거라 들었다.", "공격력 + 7", 7, 0, 70, false, false));
+
             equipmentList.Add(new Equipment(24, "석궁", "조금 낡아보이지만 쓸만해보인다.", "공격력 + 3", 3, 0, 30, false, false));
 
-            equipmentList.Add(new Equipment(25, "태평성대", "이 검으로 세상을 베면 태평성대가 찾아올 것이다.", "공격력 + 15,", 15, 0, 150, false, false));
-          
+            equipmentList.Add(new Equipment(25, "태평성대", "이 검으로 세상을 베면 태평성대가 찾아올 것이다.", "공격력 + 15", 15, 0, 150, false, false));
+
             equipmentList.Add(new Equipment(26, "기사의 검", "어느 기사가 취임식때 하사받았던 검이다.", "공격력 + 5", 5, 0, 50, false, false));
 
-            equipmentList.Add(new Equipment(27, "검투사의 투구", "한때의 영광이 여기에 담겨져 있다.", "방어력 + 10,", 0, 10, 100, false, false));
-          
+            equipmentList.Add(new Equipment(27, "검투사의 투구", "한때의 영광이 여기에 담겨져 있다.", "방어력 + 10", 0, 10, 100, false, false));
+
             equipmentList.Add(new Equipment(28, "방탄헬멧", "군인이라면 이 헬멧을 챙기도록 하자.", "방어력 + 7", 0, 7, 70, false, false));
 
             equipmentList.Add(new Equipment(29, "쌍절권", "공격과 방어에 용이해 보이는 도구이다.", "공격력 + 3, 방어력 + 2", 3, 2, 50, false, false));
-          
+
             equipmentList.Add(new Equipment(30, "모순", "방패와 창이 동시에 있는 세트 도구이다.", "공격력 + 4, 방어력 + 4", 4, 4, 80, false, false));
         }
 
@@ -83,43 +83,43 @@
         public void InitialItem()
         {
             itemList.Add(new Item(101, "힘의 부적", "보기만 해도 쎄지는 느낌이다.", "공격력 + 1", 1, 0, 8, false));
-           
+
             itemList.Add(new Item(102, "단단한 부적", "부적 주제에 쓸데없이 단단하다.", "방어력 + 1", 0, 1, 8, false));
-          
+
             itemList.Add(new Item(103, "커피", "힘은 쎄지지만 몸이 카페인을 거부하는 느낌이다.", "공격력 + 2, 방어력 -2", 2, -2, 15, false));
-           
+
             itemList.Add(new Item(104, "유리조각", "유리조각에 찔렸다.", "방어력 - 4", 0, -4, 10, false));
-          
+
             itemList.Add(new Item(105, "기사의 중압감", "기사는 고달픈 법이다", "공격력 + 5, 방어력 -5", 5, -5, 40, false));
-          
+
             itemList.Add(new Item(106, "탈세증명서", "국민이라면 세금은 내도록 하자", "다음 구역 진입시 골드 5% 감소", 0, 0, 10, false));/////   ok
-          
+
             itemList.Add(new Item(107, "제육볶음", "몬스터들이 당신의 제육볶음을 탐낸다.", "다음 구역 진입시 체력 5% 감소", 0, 0, 40, false));/////    ok
-         
+
             itemList.Add(new Item(108, "삶은 달걀", "단백질은 몸에 좋다.", "방어력 + 2", 0, 2, 20, false));
-         
+
             itemList.Add(new Item(109, "샐러드", "건강해진 기분은 들지만, 배가 고프다.", "공격력 - 4, 방어력 + 5", -4, 5, 30, false));
-         
+
             itemList.Add(new Item(110, "오예스", "Oh, Yes!.", "공격력 + 3", 3, 0, 20, false));
-          
+
             itemList.Add(new Item(111, "저주의 권갑", "아픈건 싫으니까 공격력에 올인.", "공격력 + 15, 방어력 - 20", 15, -20, 100, false));
-         
+
             itemList.Add(new Item(112, "광대의 룰렛", "결과는 슈뢰딩거의 고양이와 같은 것.", "다음 구역 진입시 랜덤한 확률로 랜덤 아이템 획득", 0, 0, 77, false));///// ok
-         
+
             itemList.Add(new Item(113, "쿠션", "폭신한 쿠션이 공격을 막아줄 수도..?.", "방어력 + 5", 0, 5, 50, false));
-         
+
             itemList.Add(new Item(114, "오류 코드", "아이템 설명과 다를수 있으니 믿지 말자", "공격력 + 1000, 방어력 + 200", 1, -1, 20, false));
-          
+
             itemList.Add(new Item(115, "전공책", "두꺼워서 둔기로 사용이 가능하다", "공격력 + 4", 4, 0, 30, false));
-         
+
             itemList.Add(new Item(116, "전기장판", "따뜻하다. 여기에만 있고 싶게 만든다.", "공격력 + 3, 방어력 + 3", 3, 3, 50, false));
-         
+
             itemList.Add(new Item(117, "참 잘했어요 도장", "백점 만점! 참 잘했어요!", "다음 구역 진입시 체력 + 10", 0, 0, 90, false));///// ok
-          
+
             itemList.Add(new Item(118, "비둘기 인형", "목으로 날것 같다.", "공격력 + 9, 방어력 + 9", 9, 9, 50, false));
-          
+
             itemList.Add(new Item(119, "토끼 인형", "당신같은 어른이 제일 싫습니다.", "다음 구역 진입시 최대체력의 10% 회복", 0, 0, 50, false));////// ok
-          
+
             itemList.Add(new Item(120, "러시안 룰렛", "오늘 둘 중 하나는 뒤지는 거여!", "공격력 + 25, 전투 내에서 방어력 -5로 고정", 30, 0, 90, false));///// ok
 
             itemList.Add(new Item(121, "함수 계산기", "슬픔과 분노도 인수분해 가능한 계산기다.", "공격력 + 2, 방어력 + 3", 2, 3, 40, false));
@@ -130,7 +130,7 @@
 
             itemList.Add(new Item(124, "시한 폭탄(프로토타입)", "가지고 있기만 해도 불안감이 쌓인다..", "공격력 -2, 방어력 - 3", -2, -3, 25, false));
 
-            itemList.Add(new Item(125, "시한 폭탄(양산형)", "이 시한폭탄은 가짜래유!!진짜와 가짜는 그림체부터 다르잖슈!", "효과없음 ", 0, 0, 20, false));
+            itemList.Add(new Item(125, "시한 폭탄(양산형)", "이 시한폭탄은 가짜래유!!진짜와 가짜는 그림체부터 다르잖아유!", "효과없음 ", 0, 0, 20, false));
 
             itemList.Add(new Item(126, "화장품", "던전에서도 자기관리는 중요하다. 자신감이 생긴다.", "공격력 + 4, 방어력 + 3 ", 4, 3, 55, false));
 
@@ -163,11 +163,11 @@
         {
             Console.WriteLine("Text RPG게임에 오신 당신을 환영합니다.");
             Thread.Sleep(2000);
-            while(true)
+            while (true)
             {
                 Console.WriteLine("당신의 이름은 무엇입니까? (8글자 이내로 기입하여 주십시오.)");
                 name = Console.ReadLine();
-                if(name?.Length > nameCountLimit)
+                if (name?.Length > nameCountLimit)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("8글자를 초과하셨거나 이름을 제대로 작성하지 않았습니다!");
@@ -351,7 +351,7 @@
             while (true)
             {
                 int index = ChooseNumber();
-                if (index == 1 )
+                if (index == 1)
                 {
                     break;
                 }
@@ -389,9 +389,9 @@
 
             bool isChooseFinished = false;
 
-            while(!isChooseFinished)
+            while (!isChooseFinished)
             {
-                switch(ChooseNumber())
+                switch (ChooseNumber())
                 {
                     //1. 아이템 하나 랜덤 지급
                     case 1:
@@ -419,7 +419,7 @@
                         break;
                     //3. 도박사 한정 스탯 재분배
                     case 3:
-                        if(character?.Job == "도박사")
+                        if (character?.Job == "도박사")
                         {
                             isChooseFinished = true;
 
@@ -472,14 +472,14 @@
                         stage++;
                         isChooseFinished = true;
                         MoveToFight();
-                        
+
                         break;
                     //다음 선택으로 이동
                     case 2:
                         stage++;
                         isChooseFinished = true;
                         MoveToSelect();
-                        
+
                         break;
                     //현재 본인의 스탯 열기
                     case 3:
@@ -507,9 +507,19 @@
             HaveNextTurn();
 
             //게임 클리어했는지
-            if(stage == 15)
+            if (stage == 15)
             {
                 GameClear();
+            }
+
+            //레벨업 조건 - 스테이지 4의 배수마다 클리어시
+            //레벨업 보상 - 체력 10 증가, 공격력 4 증가, 방어력 4 증가
+            if (stage % 4 == 0)
+            {
+                character.Level++;
+                character.MaxHealth += 10;
+                character.Attack += 4;
+                character.Defense += 4;
             }
 
             bool isChooseFinished = false;
@@ -568,7 +578,7 @@
                         character?.DisplayItemInventory();
                         break;
                     case 6:
-                        if(stage % 5 == 4 && stage != 14)
+                        if (stage % 5 == 4 && stage != 14)
                         {
                             stage++;
                             MoveToStore();
@@ -607,7 +617,7 @@
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("===============================전투===============================");
                 Console.ResetColor();
-                
+
                 Console.WriteLine("야생의 {0}과 마주쳤다!\n", monster.Name);
                 Console.WriteLine("{0} \t ---체력:{1} \t 공격력:{2} \t 방어력:{3} ---\n", monster.Name, monster.Health, monster.Attack, monster.Defense);
 
@@ -622,13 +632,13 @@
                     //공격 (그냥 공격)
                     case 1:
                         //버프가 있을 경우
-                        if(isBuffed)
+                        if (isBuffed)
                         {
                             //공격력의 30프로만큼 더해서 공격
                             int ThirtyPercentOfAttack = character.Attack * 3 / 10;
                             character.Attack += ThirtyPercentOfAttack;
                             monster.TakeDamage(TotalDamageToMonster(character, monster));
-                            Console.WriteLine(TotalDamageToMonster(character, monster)+"만큼의 피해를 주었다!\n");
+                            Console.WriteLine(TotalDamageToMonster(character, monster) + "만큼의 피해를 주었다!\n");
                             Thread.Sleep(2000);
 
                             //몬스터가 숨졌는지 확인
@@ -646,7 +656,7 @@
 
                             character.Attack -= ThirtyPercentOfAttack;
                             isBuffed = false;
-                            
+
                         }
                         //버프가 없을 경우
                         else
@@ -722,7 +732,7 @@
 
             //선택 사건들 집어넣기
             Random randomEvent = new Random();
-            int eventNumber = randomEvent.Next(1,10);
+            int eventNumber = randomEvent.Next(1, 10);
             Selection selection = new Selection(eventNumber, character, itemList);
             selection.StartEvent();
 
@@ -737,7 +747,7 @@
             Thread.Sleep(1500);
             Console.Clear();
 
-            Store store = new Store(character, equipmentList, itemList,stage);
+            Store store = new Store(character, equipmentList, itemList, stage);
             store.DisplayGoods();
 
             Console.WriteLine("휴식으로 넘어갑니다... \n");
@@ -837,7 +847,7 @@
                 Dragon dragon = new Dragon();
                 return dragon;
             }
-            else if(index == 3) 
+            else if (index == 3)
             {
                 Slime slime = new Slime();
                 return slime;
@@ -902,9 +912,9 @@
             {
                 Random r = new Random();
                 int index = r.Next(1, 4);
-                if(index == 1)
+                if (index == 1)
                 {
-                    character.GetItem(RandomItem());  
+                    character.GetItem(RandomItem());
                 }
             }
 
@@ -921,7 +931,7 @@
             Console.WriteLine("게임 오버!!");
             Console.ResetColor();
             Thread.Sleep(1000);
-            Environment.Exit(0);    
+            Environment.Exit(0);
         }
 
         public void GameClear()

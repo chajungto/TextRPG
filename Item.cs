@@ -32,7 +32,7 @@ namespace TextRPG
         }
 
         public Item(int _id, string _name, string _description, string _effectDescription, int _attackPoint,
-            int _defensePoint, int _price,bool _isOwned)
+            int _defensePoint, int _price, bool _isOwned)
         {
             Id = _id;
             Name = _name;

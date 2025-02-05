@@ -14,7 +14,7 @@
         public bool IsEquipped { get; set; }            //착용 여부
         public bool IsOwned { get; set; }               //소유 여부
 
-        public Equipment() 
+        public Equipment()
         {
             Id = 0;
             Name = "장비";
@@ -28,7 +28,7 @@
         }
 
         public Equipment(int _id, string _name, string _description, string _effectDescription, int _attackPoint,
-            int _defensePoint ,int _price, bool _isEquipped, bool _isOwned)
+            int _defensePoint, int _price, bool _isEquipped, bool _isOwned)
         {
             Id = _id;
             Name = _name;

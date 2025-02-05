@@ -72,9 +72,9 @@ namespace TextRPG
                 Console.WriteLine("===============================장비===============================");
                 for (int order = 1; order <= threeRandomEquipment.Count(); order++)
                 {
-                    Console.Write("{0}.{1,-28}\t{2,-30}\t 가격: {3,-10}", order, threeRandomEquipment[order - 1].Name,
+                    Console.Write("{0}.{1,-35}{2,-35} 가격: {3,-10}", order, threeRandomEquipment[order - 1].Name,
                         threeRandomEquipment[order - 1].EffectDescription, threeRandomEquipment[order - 1].Price);
-                    if(threeRandomEquipment[order - 1].IsOwned)
+                    if (threeRandomEquipment[order - 1].IsOwned)
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("[보유중]");
@@ -88,7 +88,7 @@ namespace TextRPG
                 Console.WriteLine("===============================아이템===============================");
                 for (int order = 4; order <= threeRandomItem.Count() + 3; order++)
                 {
-                    Console.Write("{0}.{1,-30}\t 가격:{2,-10}", order, threeRandomItem[order - 4].Name, threeRandomItem[order - 4].Price);
+                    Console.Write("{0}.{1,-40} 가격:{2,-10}", order, threeRandomItem[order - 4].Name, threeRandomItem[order - 4].Price);
                     if (threeRandomItem[order - 4].IsOwned)
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -109,7 +109,7 @@ namespace TextRPG
                 {
                     case 1:
                         BuyEq(threeRandomEquipment[0]);
-                        
+
                         break;
                     case 2:
                         BuyEq(threeRandomEquipment[1]);

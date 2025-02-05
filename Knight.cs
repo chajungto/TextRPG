@@ -20,7 +20,7 @@ namespace TextRPG
         //아이템 인벤토리
         List<Item> items = new List<Item>();
 
-        public Knight() 
+        public Knight()
         {
             Name = "NULL";
             Job = "기사";
@@ -34,7 +34,7 @@ namespace TextRPG
         }
 
 
-        public Knight(string name) 
+        public Knight(string name)
         {
             Name = name;
             Job = "기사";
@@ -83,7 +83,7 @@ namespace TextRPG
         //장비 획득 (돈으로)
         public void GetEquipment(Equipment eq, int gold)
         {
-            if(isGoldExist(gold))
+            if (isGoldExist(gold))
             {
                 equipments.Add(eq);
                 this.Gold -= gold;
@@ -134,7 +134,7 @@ namespace TextRPG
                 {
                     Equipment eq = equipments[number - 1];
                     eq.IsEquipped = !eq.IsEquipped;
-                    if(eq.IsEquipped)
+                    if (eq.IsEquipped)
                     {
                         ApplyEQEffect(eq);
                     }
@@ -142,7 +142,7 @@ namespace TextRPG
                     {
                         LoseEQEffect(eq);
                     }
-                    
+
                 }
                 //0. 나가기
                 else if (number == 0)
@@ -202,7 +202,7 @@ namespace TextRPG
                     Console.Write("{0}.", index);
 
                     Console.Write("\t");
-                    
+
                     Console.WriteLine("{0, -15}\t{1,-30}\t{2,-10}", item.Name, item.EffectDescription, item.Description);
                     index++;
                 }
@@ -236,7 +236,7 @@ namespace TextRPG
         //돈 부족 체크
         public bool isGoldExist(int amount)
         {
-            if(this.Gold - amount >= 0)
+            if (this.Gold - amount >= 0)
             {
                 return true;
             }

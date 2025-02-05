@@ -172,7 +172,7 @@
                             Console.WriteLine("골드 - 100");
                         }
                     }
-                    else if(ChoosedIndex_03 == 2)
+                    else if (ChoosedIndex_03 == 2)
                     {
                         if (ChoosedIndex_03 == randomIndex_03)
                         {
@@ -193,7 +193,7 @@
                     }
 
                     break;
-                    
+
                 //사건 4. 레스토랑
                 case 4:
                     Console.ForegroundColor = ConsoleColor.Yellow;
@@ -281,7 +281,7 @@
                 //사건 5. 기가체드
                 case 5:
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("?? : 어이 거기 {0}삣삐",ch.Name);
+                    Console.WriteLine("?? : 어이 거기 {0}삣삐", ch.Name);
                     Thread.Sleep(1500);
                     Console.WriteLine("?? : 혹시 힘들다고 생각하는건 아니지?");
                     Thread.Sleep(1500);
@@ -302,7 +302,7 @@
                     Thread.Sleep(1500);
                     Console.WriteLine("?? : 최근 이 던전에 오류코드가 떠돌아다닌다던데...");
                     Thread.Sleep(1500);
-                    Console.WriteLine("?? : 혹시 보신적 있으신가요?\n" );
+                    Console.WriteLine("?? : 혹시 보신적 있으신가요?\n");
                     Thread.Sleep(1500);
                     Console.ResetColor();
                     Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
@@ -314,9 +314,9 @@
                     Console.WriteLine("(그 외의 다른 키). 무시하고 지나간다.");
                     Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                     int ChoosedIndex_06 = ChooseNumber();
-                    if(ChoosedIndex_06 == 1)
+                    if (ChoosedIndex_06 == 1)
                     {
-                        if(!ItemList[13].IsOwned)
+                        if (!ItemList[13].IsOwned)
                         {
                             Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.WriteLine("?? : 제가 보이시다니.. 당신도 오류 코드를 가질 자격이 있군요.");
@@ -334,7 +334,7 @@
                             ch.LostGold(20);
                         }
                     }
-                    else if(ChoosedIndex_06 == 2 && ItemList[13].IsOwned)
+                    else if (ChoosedIndex_06 == 2 && ItemList[13].IsOwned)
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("?? : 오 이겁니다. 제게 주셔서 감사합니다. 보상으로 골드를 드리도록 하죠.");
@@ -392,11 +392,11 @@
                     Console.WriteLine("1. 누른다.");
                     Console.WriteLine("(그 외의 다른 키). 누르지 않는다.");
                     int ChoosedIndex_08 = ChooseNumber();
-                    if(ChoosedIndex_08 == 1)
+                    if (ChoosedIndex_08 == 1)
                     {
                         Random randoom_08 = new Random();
-                        int randomIndex_08 = randoom_08.Next(1,4);
-                        switch(randomIndex_08)
+                        int randomIndex_08 = randoom_08.Next(1, 4);
+                        switch (randomIndex_08)
                         {
                             case 1:
                                 Console.WriteLine("띠링!");
@@ -419,7 +419,7 @@
                                 Thread.Sleep(1500);
                                 ch.LostGold(randoom_08.Next(30, 101));
                                 break;
-                        } 
+                        }
                     }
                     else
                     {
@@ -449,14 +449,14 @@
                     Console.WriteLine("(그 외의 다른 키). 근데 누구세요? 저 아세요?");
 
                     int ChoosedIndex_09 = ChooseNumber();
-                    if(ChoosedIndex_09 == 1)
+                    if (ChoosedIndex_09 == 1)
                     {
                         Console.WriteLine("좋은 선택이네요. 때로는 확실함이 보장되는 안정감도 좋으니까요.");
                         Thread.Sleep(1500);
                         Console.WriteLine("골드 + 50");
                         ch.GetGold(50);
                     }
-                    else if(ChoosedIndex_09 == 2)
+                    else if (ChoosedIndex_09 == 2)
                     {
                         Console.WriteLine("어떤 결과가 나올지도 모르는 불확실성을 선택하는 당신. 과감하군요.");
                         Thread.Sleep(1500);

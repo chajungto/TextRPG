@@ -35,7 +35,7 @@
         public void TakeDamage(int damage)
         {
             this.Health -= damage;
-            if(this.Health <= 0)
+            if (this.Health <= 0)
             {
                 IsDead = true;
             }
